@@ -72,8 +72,8 @@ h1{
 
 
 button{
-    background: #2563EB;
-    color: #FDE047;
+    background: #5b1212;
+    color: #d6d3d1;
 
     border: none;
     border-radius: 12px;
@@ -88,13 +88,13 @@ button{
     transition: all 0.25s ease;
 
     box-shadow:
-        0 0 10px rgba(37, 99, 235, 0.45),
-        0 0 25px rgba(37, 99, 235, 0.25);
+    0 0 10px rgba(120, 20, 20, 0.45),
+    0 0 25px rgba(120, 20, 20, 0.25);
     letter-spacing:0.5px;
 }
 
 button:hover{
-    background: #1D4ED8;
+    background: #7a1c1c;
 
     color: #FFF59D;
 
