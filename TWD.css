@@ -35,21 +35,20 @@ h1{
 
     text-shadow:
         0 0 12px rgba(255,255,255,0.15),
-        0 0 35px rgba(37,99,235,0.35);
+        0 0 35px rgba(120,20,20,0.35);
 
     letter-spacing: 1px;
 }
 
 #link {
-    background: #2563EB;
-    color: #FDE047;
+    background: #5B1212;
+    color: #E7E5E4;
     width:250px;
     height:125px;
-    border-radius:25px;
+    border-radius:14px;
     border-width:1px;
     font-size:large;
     border: none;
-    border-radius: 10px;
     padding: 12px 24px;
     font-weight: bold;
     transition: 0.2s ease;
@@ -100,9 +99,9 @@ button:hover{
     transform: translateY(-2px) scale(1.03);
 
     box-shadow:
-        0 0 15px rgba(59, 130, 246, 0.7),
-        0 0 35px rgba(59, 130, 246, 0.45),
-        0 0 60px rgba(250, 204, 21, 0.2);
+        0 0 15px rgba(120, 20, 20, 0.7),
+        0 0 35px rgba(120, 20, 20, 0.45),
+        0 0 60px rgba(255, 255, 255, 0.08);
 }
 
 button:active{
