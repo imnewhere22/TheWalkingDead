@@ -72,8 +72,8 @@ h1{
 
 
 button{
-    background: #5b1212;
-    color: #d6d3d1;
+    background: #5B1212;
+    color: #E7E5E4;
 
     border: none;
     border-radius: 12px;
@@ -94,9 +94,8 @@ button{
 }
 
 button:hover{
-    background: #7a1c1c;
-
-    color: #FFF59D;
+    background: #7A1C1C;
+    color: #FFFFFF;
 
     transform: translateY(-2px) scale(1.03);
 
