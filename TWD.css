@@ -1,0 +1,143 @@
+body::before{
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(255,255,255,0.08),
+            transparent 30%
+        );
+
+    pointer-events: none;
+}
+
+body{
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #0F172A 0%,
+        #1E3A8A 50%,
+        #312E81 100%
+    );
+    color:white;
+    overflow:hidden;
+    
+}
+
+h1{
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+
+    text-shadow:
+        0 0 12px rgba(255,255,255,0.15),
+        0 0 35px rgba(37,99,235,0.35);
+
+    letter-spacing: 1px;
+}
+
+#link {
+    background: #2563EB;
+    color: #FDE047;
+    width:250px;
+    height:125px;
+    border-radius:25px;
+    border-width:1px;
+    font-size:large;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+button{
+    background: #2563EB;
+    color: #FDE047;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 12px 26px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+
+    box-shadow:
+        0 0 10px rgba(37, 99, 235, 0.45),
+        0 0 25px rgba(37, 99, 235, 0.25);
+    letter-spacing:0.5px;
+}
+
+button:hover{
+    background: #1D4ED8;
+
+    color: #FFF59D;
+
+    transform: translateY(-2px) scale(1.03);
+
+    box-shadow:
+        0 0 15px rgba(59, 130, 246, 0.7),
+        0 0 35px rgba(59, 130, 246, 0.45),
+        0 0 60px rgba(250, 204, 21, 0.2);
+}
+
+button:active{
+    transform:scale(0.92)
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    h1{
+        font-size: 2rem;
+        line-height: 1.2;
+        max-width: 90vw;
+    }
+
+    .center{
+        min-height: 100vh;
+    }
+
+    .content{
+        gap: 25px;
+        width: 100%;
+    }
+
+    #link{
+        width: 85vw;
+        max-width: 300px;
+        height: auto;
+        min-height: 90px;
+        font-size: 1rem;
+        padding: 16px 20px;
+        border-radius: 14px;
+    }
+}
